@@ -1,20 +1,22 @@
-# clone-chatgpt
+# Clone-ChatGPT
 
-clone-chatgpt is an open-source project that replicates the functionality of OpenAI's ChatGPT using the OpenAI API and Streamlit framework. This project provides a simple interface for deploying a conversational AI model capable of generating human-like text based on user input.
+Clone-ChatGPT is a simple web application that replicates the functionality of OpenAI's ChatGPT using the OpenAI API and Streamlit framework. This application allows users to interact with an AI model that can generate human-like text responses based on user inputs.
 
 ## Features
 
-- **Natural Language Understanding:** Efficiently processes and understands user inputs to generate coherent and contextually appropriate responses.
-- **Customizable:** Easily modify the model's behavior and responses to suit specific use cases.
-- **User-friendly Interface:** Simple and intuitive interface built with Streamlit for seamless interaction with the AI model.
-- **Integration Ready:** Easily integrates with existing systems and applications for enhanced functionality.
-
-## Requirements
-
-- Python 3.9 or above
-- OpenAI API Key
+- Interactive chat interface using Streamlit
+- Uses OpenAI's GPT-4 model for generating responses
+- Stores conversation history using LangChain's `ConversationBufferMemory`
+- Simple and intuitive user interface
 
 ## Installation
+
+### Prerequisites
+
+- Python 3.9 or higher
+- OpenAI API key
+
+### Steps
 
 1. **Clone the repository:**
 
@@ -23,77 +25,69 @@ clone-chatgpt is an open-source project that replicates the functionality of Ope
     cd clone-chatgpt
     ```
 
-2. **Set up a virtual environment:**
+2. **Create and activate a virtual environment:**
 
     ```sh
     python -m venv .venv
-    source .venv/bin/activate  # On Windows, use `.venv\Scripts\activate`
+    .venv\Scripts\activate   # On Windows
+    source .venv/bin/activate  # On macOS/Linux
     ```
 
-3. **Install the dependencies:**
+3. **Install the required packages:**
 
     ```sh
     pip install -r requirements.txt
     ```
 
-4. **Set up your OpenAI API Key:**
-
-    Create a `.env` file in the project root directory and add your OpenAI API key:
-
-    ```plaintext
-    OPENAI_API_KEY=your_openai_api_key
-    ```
-
-## Usage
-
-1. **Run the Streamlit app:**
+4. **Run the application:**
 
     ```sh
     streamlit run main.py
     ```
 
-2. **Access the application:**
+## Usage
 
-    Open your browser and go to `http://localhost:8501` to interact with the application.
+1. Open your web browser and navigate to `http://localhost:8501`.
+2. Enter your OpenAI API key in the sidebar.
+3. Start chatting with the AI model by entering text in the chat input.
+
+## File Structure
+
+- `main.py`: The main application file containing the Streamlit interface and chat logic.
+- `utils.py`: Contains helper functions, including the `get_chat_response` function for interacting with the OpenAI API.
+- `requirements.txt`: Lists all the Python packages required to run the application.
+- `Dockerfile`: Contains instructions for building a Docker image for the application.
 
 ## Docker
 
-You can also run the application using Docker.
+To build and run the application using Docker, follow these steps:
 
 1. **Build the Docker image:**
 
     ```sh
-    docker build -t clone-chatgpt .
+    docker build -t cloned-chatgpt .
     ```
 
 2. **Run the Docker container:**
 
     ```sh
-    docker run -p 8501:8501 clone-chatgpt
+    docker run -p 8501:8501 cloned-chatgpt
     ```
 
-3. **Access the application:**
-
-    Open your browser and go to `http://localhost:8501` to interact with the application.
-
-## Files
-
-- `main.py`: The main script that runs the Streamlit application.
-- `utils.py`: Utility functions used in the application.
-- `requirements.txt`: A file listing all the dependencies needed for the project.
-- `Dockerfile`: Configuration file for Docker to build the application image.
-- `LICENSE`: The license under which the project is distributed.
+3. Open your web browser and navigate to `http://localhost:8501`.
 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
+## Acknowledgments
+
+- OpenAI for providing the GPT-4o model
+- Streamlit for providing an easy-to-use framework for creating web applications
+- LangChain for providing tools to manage conversation history
+
 ## Contributing
 
-Contributions are welcome! Please open an issue or submit a pull request if you have any improvements or suggestions.
+Contributions are welcome! Please feel free to submit a Pull Request or open an issue.
 
-## Acknowledgements
-
-- [OpenAI](https://www.openai.com) for providing the GPT-4o model.
-- [Streamlit](https://www.streamlit.io) for providing the framework to build the application.
 
