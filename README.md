@@ -5,7 +5,7 @@ Clone-ChatGPT is a simple web application that replicates the functionality of O
 ## Features
 
 - Interactive chat interface using Streamlit
-- Uses OpenAI's GPT-4 model for generating responses
+- Uses OpenAI's GPT-4o model for generating responses
 - Stores conversation history using LangChain's `ConversationBufferMemory`
 - Simple and intuitive user interface
 
@@ -82,7 +82,7 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 ## Acknowledgments
 
-- OpenAI for providing the GPT-4 model
+- OpenAI for providing the GPT-4o model
 - Streamlit for providing an easy-to-use framework for creating web applications
 - LangChain for providing tools to manage conversation history
 
