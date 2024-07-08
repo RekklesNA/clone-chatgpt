@@ -3,7 +3,7 @@ from langchain.memory import ConversationBufferMemory
 # Assume the necessary 'get_chat_response' function is in 'utils.py'
 from utils import get_chat_response
 
-st.title("ChatGPT Clone")
+st.title("Clone Chatgpt")
 with st.sidebar:
     open_ai_key = st.text_input("OpenAI API Key", type="password")
     st.markdown("Get your OpenAI API key at https://platform.openai.com/")
