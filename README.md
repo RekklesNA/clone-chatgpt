@@ -76,6 +76,12 @@ To build and run the application using Docker, follow these steps:
 
 3. Open your web browser and navigate to `http://localhost:8501`.
 
+## Online Access
+
+Users can access the deployed web application at [https://clone-chatgpt-rekkles.streamlit.app/](https://clone-chatgpt-rekkles.streamlit.app/).
+
+
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
