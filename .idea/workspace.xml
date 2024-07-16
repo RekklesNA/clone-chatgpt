@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="44125552-8cb9-443d-8ce0-3f080931b932" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/PycharmProjects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../database_generation/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../database_generation/.idea/database_generation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../database_generation/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../database_generation/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../database_generation/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../database_generation/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../database_generation/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../database_generation/database_generator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../database_generation/output" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../database_generation/url_change.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../database_generation/url_dataset.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../database_generation/urls.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../database_schema_generator/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../database_schema_generator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker_beginner/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker_beginner/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker_beginner/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../log_collections/.idea/log_collections.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../log_collections/log_collection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../log_collections/logs_collections/SEL_Text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../log_collections/script.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../url_scrapping/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../url_scrapping/.idea/url_scrapping.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../url_scrapping/dataset_generate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/pylint.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/pylint.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2gLLxQEsfPTbjJByXYEv7DBoJQG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main.executor": "Run",
+    "Python.utils.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/PycharmProject/cloned-chatgpt",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cloned-chatgpt" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="utils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cloned-chatgpt" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.utils" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.18034.82" />
+        <option value="bundled-python-sdk-975db3bf15a3-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.18034.82" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="44125552-8cb9-443d-8ce0-3f080931b932" name="更改" comment="" />
+      <created>1715472157139</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715472157139</updated>
+      <workItem from="1715472159443" duration="3465000" />
+      <workItem from="1715560046377" duration="371000" />
+      <workItem from="1715560518394" duration="99000" />
+      <workItem from="1715731291535" duration="569000" />
+      <workItem from="1715746959044" duration="824000" />
+      <workItem from="1720523189856" duration="983000" />
+      <workItem from="1720568137522" duration="125000" />
+      <workItem from="1721111253508" duration="528000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/cloned_chatgpt$utils.coverage" NAME="utils 覆盖结果" MODIFIED="1715473170876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cloned_chatgpt$main.coverage" NAME="main 覆盖结果" MODIFIED="1715747051987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
